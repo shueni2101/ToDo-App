@@ -1,0 +1,28 @@
+.contenedorGeneral{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.contenedorFormulario{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+    height: 60vh;
+}
+.contenedorTodo{
+    margin-top: 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+ 
+}

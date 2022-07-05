@@ -1,0 +1,331 @@
+.contenedorGeneralForm{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.contenedorFormulario{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25%;
+    height: 100%;
+    background-image: url("../../images/toDoReact.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px groove black;
+}
+.formulario{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+    height: 60%;
+}
+.formulario > div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 14%;
+    background-color: transparent;
+}
+.inputTitle{
+    border: 3px solid rgb(174, 49, 49);
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    width: 40%;
+    height: 85%;
+    cursor: pointer;
+    font-size: 2vh;
+}
+.inputResponsable{
+    border: 3px solid rgb(174, 49, 49);
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    height: 85%;
+    width: 50%;
+    cursor: pointer;
+    font-size: 2vh;
+}
+.inputDescripcion{
+    border: 3px solid rgb(174, 49, 49);
+    font-size: 2.2vh;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    height: 100%;
+    width: 60%;
+    cursor: pointer;
+}
+.selectFormulario{
+    border-radius: 10px;
+    border: 3px solid rgb(174, 49, 49);
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+    font-size: 1.8vh;
+}
+.option{
+    display: flex;
+    background-color: wheat;
+    text-align: center;
+    color: black;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+    font-size: 1.5vh;
+}
+.botonGuardar{
+    background: rgb(65, 65, 135);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor:pointer;
+    height: 100%;
+    width: 40%;
+    font-size: 2vh;
+}
+@media screen and (min-width:800px) and (max-width:1500px) {
+    .contenedorFormulario{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 50%;
+        height:100%;
+        background-image: url("../../images/toDoReact.png");
+        background-position:center center center;
+        background-repeat: no-repeat;
+        background-size: cover cover cover cover cover;
+        border-radius: 5px;
+        border: 2px groove black;
+    }
+    .selectFormulario{
+        border-radius: 10px;
+        border: 3px solid rgb(174, 49, 49);
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1.8vh;
+    }
+    .option{
+        display: flex;
+        background-color: wheat;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1vh;
+    }
+    .botonGuardar{
+        background: rgb(65, 65, 135);
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        cursor:pointer;
+        height: 100%;
+        width: 30%;
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1500px) {
+    .contenedorFormulario{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 45%;
+        height:100%;
+        background-image: url("../../images/toDoReact.png");
+        background-position:center center center;
+        background-repeat: no-repeat;
+        background-size: cover cover cover cover cover;
+        border-radius: 5px;
+        border: 2px groove black;
+    }
+    .selectFormulario{
+        border-radius: 10px;
+        border: 3px solid rgb(174, 49, 49);
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1.8vh;
+    }
+    .option{
+        display: flex;
+        background-color: wheat;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1vh;
+    }
+    .botonGuardar{
+        background: rgb(65, 65, 135);
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        cursor:pointer;
+        height: 100%;
+        width: 30%;
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px) {
+    .contenedorFormulario{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 80%;
+        height:100%;
+        background-image: url("../../images/toDoReact.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+        border: 2px groove black;
+    }
+    .selectFormulario{
+        border-radius: 10px;
+        border: 3px solid rgb(174, 49, 49);
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1.8vh;
+    }
+    .option{
+        display: flex;
+        background-color: wheat;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1vh;
+    }
+    .botonGuardar{
+        background: rgb(65, 65, 135);
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        cursor:pointer;
+        height: 100%;
+        width: 30%;
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width:140px) and (max-width:399px) {
+    .contenedorFormulario{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 95%;
+        height: 95%;
+        background-image: url("../../images/toDoReact.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover cover;
+        border-radius: 5px;
+        border: 2px groove black;
+    }
+    .inputTitle{
+        border: 3px solid rgb(174, 49, 49);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        width: 40%;
+        height: 85%;
+        cursor: pointer;
+        font-size: 1vh;
+    }
+    .inputResponsable{
+        border: 3px solid rgb(174, 49, 49);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 85%;
+        width: 50%;
+        cursor: pointer;
+        font-size: 1.2vh;
+    }
+    .inputDescripcion{
+        border: 3px solid rgb(174, 49, 49);
+        font-size: 1.2vh;
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 60%;
+        cursor: pointer;
+    }
+    .selectFormulario{
+        border-radius: 10px;
+        border: 3px solid rgb(174, 49, 49);
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 40%;
+        cursor: pointer;
+        font-size: 1.2vh;
+        margin-top: 2%;
+    }
+    .option{
+        display: flex;
+        background-color: wheat;
+        text-align: center;
+        color: black;
+        height: 100%;
+        width: 30%;
+        cursor: pointer;
+        font-size: 1vh;
+    }
+    .botonGuardar{
+        background: rgb(65, 65, 135);
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        cursor:pointer;
+        height: 100%;
+        width: 40%;
+        font-size: 1vh;
+    }
+}
